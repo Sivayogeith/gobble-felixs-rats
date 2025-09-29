@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.sage.gobblerats.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "CatMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
